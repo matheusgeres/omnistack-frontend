@@ -50,8 +50,8 @@ export default class Box extends Component {
     return (
         <div id="box-container">
             <header>
-                <h1>{this.state.box.title}</h1>
                 <img src={logo} alt="" />
+                <h1>{this.state.box.title}</h1>
             </header>
 
             <Dropzone onDropAccepted={this.handleUpload}>
